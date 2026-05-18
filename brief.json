@@ -1,0 +1,312 @@
+{
+  "run_id": "run-1779062832997",
+  "job_index": 1,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 1,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Évaluez la profondeur et la coloration affective de vos écrits ou des textes à traduire. Cet outil aide à aff…",
+    "notes": "Identifiez la portée émotionnelle, le niveau de formalité et les connotations subtiles d'un texte pour un impact maximal.\nUtile pour les auteurs, les éditeurs, les traducteurs et les spécialistes du marketing de contenu qui visent une communication nuancée et précise en français.\nIdentifiez la portée émotionnelle, le niveau de formalité et les connotations subtiles d'un texte pour un impact maximal.\nIdentifiez la portée émotionnelle, le niveau de formalité et les connotations subtiles d'un texte pour un impact maximal. Utile pour les auteurs, les éditeurs, les traducteurs et les spécialistes du marketing de contenu qui visent une communication nuancée et précise en français.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "tool",
+    "archetype_mix": [
+      "tool"
+    ],
+    "forced_design_theme": "sandline",
+    "forced_structure_preset": "editorial-rail",
+    "site_idea_title": "Analyseur de Nuances de Langage pour Écrivains et Traducteurs",
+    "site_idea_summary": "Identifiez la portée émotionnelle, le niveau de formalité et les connotations subtiles d'un texte pour un impact maximal.",
+    "forced_slug": "analyseur-de-nuances-de-langage-pour-ecrivains-bb4475ee"
+  },
+  "site_spec": {
+    "slug": "analyseur-de-nuances-de-langage-pour-ecrivains-bb4475ee",
+    "theme": {
+      "name": "Sandline",
+      "slug": "sandline",
+      "eyebrow": "Conversion Layer",
+      "family": "minimal-seriffed",
+      "moods": [
+        "clean",
+        "editorial",
+        "calm",
+        "luxury"
+      ],
+      "archetypes": [
+        "calculator",
+        "generator",
+        "tool"
+      ],
+      "niches": [
+        "legal",
+        "documents",
+        "premium services",
+        "planning",
+        "home"
+      ],
+      "keywords": [
+        "clarity",
+        "elegant",
+        "serif",
+        "professional"
+      ],
+      "token_index": [
+        "calculator",
+        "calm",
+        "clarity",
+        "clean",
+        "conversion",
+        "documents",
+        "editorial",
+        "elegant",
+        "generator",
+        "home",
+        "layer",
+        "legal",
+        "luxury",
+        "minimal",
+        "planning",
+        "premium",
+        "professional",
+        "sandline",
+        "serif",
+        "seriffed",
+        "services",
+        "tool"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"Cormorant Garamond\", serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "editorial",
+      "card_style": "outline",
+      "button_style": "outline",
+      "decor_style": "paper",
+      "hero_template": "1fr",
+      "seo_template": "1fr",
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "hero_min_height": "auto",
+      "panel_radius": "30px",
+      "card_radius": "24px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "0px",
+      "palette": {
+        "bg": "#f5efe4",
+        "surface": "rgba(255, 255, 255, 0.84)",
+        "surface_border": "rgba(28, 23, 18, 0.1)",
+        "text": "#141312",
+        "muted": "#5c564e",
+        "accent": "#0ea5a4",
+        "accent_alt": "#f97316",
+        "hero_glow": "rgba(14, 165, 164, 0.14)",
+        "button_text": "#ffffff",
+        "panel_alt": "rgba(20, 19, 18, 0.03)",
+        "shadow": "0 26px 66px rgba(71, 58, 39, 0.12)",
+        "input_fill": "rgba(20, 19, 18, 0.04)"
+      }
+    },
+    "structure": {
+      "name": "Editorial Rail",
+      "slug": "editorial-rail",
+      "hero_variant": "editorial",
+      "proof_variant": "rail",
+      "section_order": [
+        "seo",
+        "features",
+        "proof",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "editorial",
+      "moods": [
+        "calm",
+        "trust",
+        "luxury"
+      ],
+      "archetypes": [
+        "calculator",
+        "generator",
+        "tool"
+      ],
+      "niches": [
+        "property",
+        "documents",
+        "consulting",
+        "insurance"
+      ],
+      "keywords": [
+        "editorial",
+        "rail",
+        "storytelling",
+        "magazine"
+      ],
+      "token_index": [
+        "calculator",
+        "calm",
+        "consulting",
+        "documents",
+        "editorial",
+        "faq",
+        "features",
+        "generator",
+        "insurance",
+        "luxury",
+        "magazine",
+        "proof",
+        "property",
+        "rail",
+        "seo",
+        "storytelling",
+        "tool",
+        "trust"
+      ]
+    },
+    "render_direction": "worksheet-flow",
+    "render_direction_name": "Worksheet Flow",
+    "page_blueprint": "campaign-mosaic",
+    "page_blueprint_name": "Campaign Mosaic",
+    "title": "Analyseur de Nuances de Langage pour Écrivains et Traducteurs",
+    "tagline": "Précision linguistique à portée de main",
+    "description": "Identifiez la portée émotionnelle, le niveau de formalité et les connotations subtiles d",
+    "feature_prefix": "Bloc",
+    "action": "Générer la palette",
+    "cta_primary": "Analyser le Texte & Générer des Titres",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "base_color",
+        "label": "Couleur de base",
+        "type": "text",
+        "placeholder": "#ff5db1",
+        "weight": 1.0
+      },
+      {
+        "id": "palette_style",
+        "label": "Direction de palette",
+        "type": "select",
+        "options": [
+          {
+            "id": "chrome-pop",
+            "label": "Chrome Pop",
+            "multiplier": 1
+          },
+          {
+            "id": "digital-candy",
+            "label": "Digital Candy",
+            "multiplier": 1
+          },
+          {
+            "id": "acid-pastel",
+            "label": "Acid Pastel",
+            "multiplier": 1
+          },
+          {
+            "id": "night-neon",
+            "label": "Night Neon",
+            "multiplier": 1
+          }
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "vibrancy",
+        "label": "Intensité visuelle",
+        "type": "number",
+        "placeholder": "8",
+        "weight": 0.5
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Worksheet Flow",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Palette générée",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Worksheet Flow",
+      "Analyser le Texte & Générer des Titres",
+      "Palette générée",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Palette générée",
+    "result_unit": "",
+    "runtime_mode": "palette_generator",
+    "page_variant": "classic",
+    "faq_topic": "Analyseur de Nuances de Langage pour Écrivains et Traducteurs",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Analyseur de Nuances de Langage pour Écrivains et Traducteurs ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Analyseur de Nuances de Langage pour Écrivains et Traducteurs et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Analyseur de Nuances de Langage pour Écrivains et Traducteurs | Précision linguistique à portée de main</title>\n    <meta name=\"description\" content=\"Identifiez la portée émotionnelle, le niveau de formalité et les connotations subtiles d\">\n    <style>\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n            margin: 0;\n            background-color: #f7f7f7;\n            color: #333;\n            line-height: 1.6;\n            padding: 20px;\n        }\n        .container {\n            max-width: 960px;\n            margin: 40px auto;\n            background-color: #fff;\n            padding: 30px 40px;\n            border-radius: 8px;\n            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);\n        }\n        h1, h2, h3 {\n            font-family: 'Helvetica Neue', Arial, sans-serif;\n            color: #222;\n            margin-top: 0;\n        }\n        h1 {\n            font-size: 2.5em;\n            margin-bottom: 0.5em;\n            text-align: center;\n        }\n        h2 {\n            font-size: 1.8em;\n            margin-top: 1.5em;\n            margin-bottom: 0.8em;\n            border-bottom: 1px solid #eee;\n            padding-bottom: 10px;\n        }\n        h3 {\n            font-size: 1.3em;\n            margin-top: 1em;\n            margin-bottom: 0.6em;\n            color: #444;\n        }\n        p {\n            margin-bottom: 1em;\n            font-size: 1.05em;\n        }\n        .hero {\n            text-align: center;\n            padding: 40px 0;\n            margin-bottom: 30px;\n            background-color: #f0f0f0;\n            border-radius: 8px;\n        }\n        .hero p {\n            font-size: 1.2em;\n            max-width: 700px;\n            margin: 15px auto 0 auto;\n            color: #555;\n        }\n        textarea {\n            width: 100%;\n            min-height: 200px;\n            padding: 15px;\n            border: 1px solid #ddd;\n            border-radius: 6px;\n            font-size: 1em;\n            box-sizing: border-box;\n            margin-bottom: 20px;\n            resize: vertical;\n        }\n        button {\n            background-color: #007bff;\n            color: white;\n            padding: 12px 25px;\n            border: none;\n            border-radius: 6px;\n            font-size: 1.1em;\n            cursor: pointer;\n            transition: background-color 0.3s ease;\n            display: block;\n            width: fit-content;\n            margin: 0 auto;\n        }\n        button:hover {\n            background-color: #0056b3;\n        }\n        .result-section {\n            background-color: #fcfcfc;\n            border: 1px solid #eee;\n            border-radius: 6px;\n            padding: 25px;\n            margin-top: 30px;\n        }\n        .result-section h3 {\n            color: #007bff;\n            margin-bottom: 15px;\n            text-align: center;\n        }\n        .result-group {\n            margin-bottom: 25px;\n            border-bottom: 1px dashed #eee;\n            padding-bottom: 15px;\n        }\n        .result-group:last-child {\n            border-bottom: none;\n            margin-bottom: 0;\n            padding-bottom: 0;\n        }\n        .result-group ul {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n        }\n        .result-group li {\n            background-color: #e9f7ff;\n            border-left: 4px solid #007bff;\n            padding: 12px 15px;\n            margin-bottom: 8px;\n            border-radius: 4px;\n            font-size: 0.95em;\n            color: #333;\n        }\n        .seo-section {\n            margin-top: 60px;\n            padding-top: 40px;\n            border-top: 1px solid #eee;\n        }\n        .seo-section ul {\n            list-style: disc;\n            margin-left: 20px;\n        }\n        .seo-section li {\n            margin-bottom: 8px;\n        }\n        .subtle-text {\n            font-size: 0.9em;\n            color: #888;\n            text-align: center;\n            margin-top: 20px;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://analyseur-de-nuances-de-langage-pour-ecrivains-bb4475ee.onrender.com\">\n    <meta property=\"og:title\" content=\"Analyseur de Nuances de Langage pour Écrivains et Traducteurs\">\n    <meta property=\"og:description\" content=\"Identifiez la portée émotionnelle, le niveau de formalité et les connotations subtiles d\">\n    <meta property=\"og:url\" content=\"https://analyseur-de-nuances-de-langage-pour-ecrivains-bb4475ee.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Analyseur de Nuances de Langage pour Écrivains et Traducteurs\", \"description\": \"Identifiez la portée émotionnelle, le niveau de formalité et les connotations subtiles d\", \"url\": \"https://analyseur-de-nuances-de-langage-pour-ecrivains-bb4475ee.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"analyseur-de-nuances-de-langage-pour-ecrivains-bb4475ee\" data-runtime-mode=\"palette_generator\">\n\n    <div class=\"container\">\n        <header class=\"hero\">\n            <h1>Analyseur de Nuances de Langage</h1>\n            <p>Identifiez la portée émotionnelle, le niveau de formalité et les connotations subtiles d'un texte pour un impact maximal en français.</p>\n        </header>\n\n        <section class=\"tool-description\">\n            <h2>Précision linguistique à portée de main</h2>\n            <p>Que vous soyez auteur, éditeur, traducteur ou spécialiste du marketing de contenu, cet outil vous permet d'évaluer la profondeur et la coloration affective de vos écrits. Assurez-vous que chaque mot porte l'intention exacte et résonne parfaitement avec votre public cible.</p>\n            <p>Notre analyseur vous aide à affiner votre message, à éviter les malentendus et à créer des textes qui captivent, informent et persuadent avec une clarté inégalée.</p>\n        </section>\n\n        <section class=\"tool-interface\">\n            <h2>Analysez votre texte</h2>\n            <form id=\"tool-form\">\n                <p>Collez votre texte ci-dessous pour découvrir ses nuances cachées et générer des titres adaptés.</p>\n                <textarea id=\"text-input\" placeholder=\"Écrivez ou collez votre texte ici. Par exemple : 'La pleine lune illuminait la forêt endormie d'un éclat fantomatique, jetant des ombres longues et dansantes qui semblaient murmurer des secrets anciens.'\"></textarea>\n                <button type=\"submit\" id=\"tool-submit\" data-affiliate-slot=\"primary-analysis\">Analyser le Texte & Générer des Titres</button>\n            </form>\n\n            <div id=\"tool-result\" class=\"result-section\" style=\"display:none;\">\n                <h3 id=\"result-headline\">Résultats de l'Analyse & Suggestions de Titres</h3>\n\n                <div class=\"result-group\">\n                    <h4>Analyse Sommaire</h4>\n                    <p id=\"summary-analysis\"></p>\n                </div>\n\n                <div class=\"result-group\">\n                    <h4>Titres de Style \"SEO\"</h4>\n                    <ul id=\"seo-headlines\"></ul>\n                </div>\n\n                <div class=\"result-group\">\n                    <h4>Titres de Style \"Accrocheur\" (Clickbait)</h4>\n                    <ul id=\"clickbait-headlines\"></ul>\n                </div>\n\n                <div class=\"result-group\">\n                    <h4>Titres de Style \"Expert\"</h4>\n                    <ul id=\"expert-headlines\"></ul>\n                </div>\n\n                <div class=\"result-group\">\n                    <h4>Titres de Style \"Émotionnel/Doux\"</h4>\n                    <ul id=\"soft-headlines\"></ul>\n                </div>\n\n                <div class=\"result-group\">\n                    <h4>Titres de Style \"Commercial\"</h4>\n                    <ul id=\"commercial-headlines\"></ul>\n                </div>\n            </div>\n        </section>\n\n        <section class=\"seo-section\">\n            <h2>Optimisez votre contenu pour le marché français</h2>\n            <p>Dans l'univers numérique actuel, la pertinence linguistique et culturelle est primordiale. Notre analyseur de nuances vous aide à :</p>\n            <ul>\n                <li><strong>Améliorer le SEO sémantique :</strong> Comprenez les connotations de vos mots pour mieux cibler les intentions de recherche des utilisateurs français.</li>\n                <li><strong>Adapter votre message :</strong> Assurez-vous que le ton et le niveau de formalité correspondent aux attentes de votre audience en France.</li>\n                <li><strong>Éviter les erreurs culturelles :</strong> Identifiez les tournures de phrase qui pourraient être mal interprétées ou moins impactantes dans un contexte francophone.</li>\n                <li><strong>Générer des titres percutants :</strong> Créez des titres optimisés pour les clics, le partage social ou la crédibilité professionnelle, spécifiquement adaptés au public français.</li>\n                <li><strong>Renforcer l'engagement :</strong> Des textes nuancés et précis augmentent la durée de lecture et la conversion.</li>\n            </ul>\n            <p>Utilisez notre outil pour propulser la qualité de vos communications écrites et traductions en français, qu'il s'agisse de marketing de contenu, de rédaction technique ou de littérature.</p>\n            <div class=\"subtle-text\">Un outil développé avec passion pour les artisans du mot en France.</div>\n        </section>\n    </div>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(e) {\n            e.preventDefault();\n            const textInput = document.getElementById('text-input').value;\n            const resultDiv = document.getElementById('tool-result');\n\n            if (textInput.trim() === '') {\n                alert('Veuillez entrer du texte pour l\\'analyse.');\n                return;\n            }\n\n            // Simple text analysis simulation\n            const wordCount = textInput.split(/\\s+/).filter(word => word.length > 0).length;\n            const sentenceCount = textInput.split(/[.!?]+/).filter(sentence => sentence.trim().length > 0).length;\n            const avgWordLength = (textInput.replace(/\\s/g, '').length / wordCount).toFixed(2);\n\n            let formality = 'neutre';\n            if (textInput.toLowerCase().includes('vous') && !textInput.toLowerCase().includes('tu')) {\n                formality = 'formel';\n            } else if (textInput.toLowerCase().includes('tu') && !textInput.toLowerCase().includes('vous')) {\n                formality = 'informel';\n            }\n\n            let sentiment = 'plutôt neutre';\n            if (textInput.toLowerCase().includes('joie') || textInput.toLowerCase().includes('heureux') || textInput.toLowerCase().includes('magnifique')) {\n                sentiment = 'positif';\n            } else if (textInput.toLowerCase().includes('triste') || textInput.toLowerCase().includes('peur') || textInput.toLowerCase().includes('difficulté')) {\n                sentiment = 'négatif';\n            }\n\n            document.getElementById('summary-analysis').innerHTML = `\n                <p><strong>Longueur:</strong> ${wordCount} mots, ${sentenceCount} phrases</p>\n                <p><strong>Formalité perçue:</strong> ${formality}</p>\n                <p><strong>Tonalité générale:</strong> ${sentiment}</p>\n                <p><em>(Cette analyse est simplifiée. Une analyse réelle nécessiterait des algorithmes plus complexes.)</em></p>\n            `;\n\n            // Headline generation (simplified and rule-based for in-browser execution)\n            const baseTitle = textInput.substring(0, Math.min(textInput.length, 60)).split(' ').slice(0, 8).join(' ');\n            const mainKeyword = textInput.toLowerCase().split(' ').find(word => word.length > 4 && /[a-zà-ÿ]/.test(word)) || 'texte';\n\n            const generateHeadlines = (style) => {\n                let headlines = [];\n                switch (style) {\n                    case 'seo':\n                        headlines.push(`Analyse de ${mainKeyword} : Guide Complet pour Auteurs`);\n                        headlines.push(`Optimiser votre ${mainKeyword} : Nuances et Formalité`);\n                        headlines.push(`Maîtriser les Connotations de votre ${mainKeyword} en Français`);\n                        break;\n                    case 'clickbait':\n                        headlines.push(`Ce que votre ${mainKeyword} révèle VRAIMENT sur vous !`);\n                        headlines.push(`Le Secret pour des Textes Impactants (personne ne vous le dira)`);\n                        headlines.push(`Ne publiez jamais votre ${mainKeyword} avant d'avoir lu ceci !`);\n                        break;\n                    case 'expert':\n                        headlines.push(`Rhétorique et Sémantique : Décrypter les Profondeurs de votre ${mainKeyword}`);\n                        headlines.push(`Prosodie et Affect : L'Ingénierie du Langage dans votre ${mainKeyword}`);\n                        headlines.push(`Taxonomie des Tonalités : Cartographier l'Émotion de votre ${mainKeyword}`);\n                        break;\n                    case 'soft':\n                        headlines.push(`L'Âme de votre ${mainKeyword} : Trouvez les Mots Justes`);\n                        headlines.push(`Exprimez-vous avec Sensibilité : Quand le ${mainKeyword} Raconte`);\n                        headlines.push(`Écrire avec le Cœur : La Douceur de votre ${mainKeyword}`);\n                        break;\n                    case 'commercial':\n                        headlines.push(`Boostez l'Impact de votre ${mainKeyword} et Vendez Plus`);\n                        headlines.push(`Convertissez grâce aux Nuances : Votre ${mainKeyword}, votre Atout Commercial`);\n                        headlines.push(`Votre ${mainKeyword} Professionnel : Attirez et Fidélisez`);\n                        break;\n                }\n                return headlines;\n            };\n\n            const fillHeadlines = (id, style) => {\n                const ul = document.getElementById(id);\n                ul.innerHTML = '';\n                generateHeadlines(style).forEach(h => {\n                    const li = document.createElement('li');\n                    li.textContent = h;\n                    ul.appendChild(li);\n                });\n            };\n\n            fillHeadlines('seo-headlines', 'seo');\n            fillHeadlines('clickbait-headlines', 'clickbait');\n            fillHeadlines('expert-headlines', 'expert');\n            fillHeadlines('soft-headlines', 'soft');\n            fillHeadlines('commercial-headlines', 'commercial');\n\n            resultDiv.style.display = 'block';\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
